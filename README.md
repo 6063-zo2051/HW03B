@@ -1,60 +1,7 @@
-# p5.js Template
+# HOMEWORK 03 PART B
 
-This is a README file that can be used to describe and document your assignment.
-
-Markdown Cheatsheet (from [https://www.markdownguide.org/cheat-sheet/](https://www.markdownguide.org/cheat-sheet/)):
-
----
+This code aims to recreate a Yayoi Kusama style artpiece that has more of a random character to it. The goal is to have non-overlapping shapes and avoid stright lines.
 ---
 
-# Heading1
-## Heading2
-### Heading3
-#### Heading4
-##### Heading5
-###### Heading6
-
-**bold text**
-
-*italicized text*
-
-~~strikethrough text~~
-
-Ordered List:
-1. First item
-2. Second item
-3. Third item
-
-Unordered List:
-- First item
-- Second item
-- Third item
-
-`short code block`
-
-```
-extended code block
-fun() {
-  return 0
-}
-```
-
-Link:  
-[linked text](https://www.example.com)
-
-
-Image with url:  
-![image description](https://dm-gy-6063-2023f-d.github.io/assets/homework/02/clark-espaco-modulado-00.jpg)
-
-
-Image on repo:  
-![image description](./file-name.jpg)
-
-
-To start a new line, add two spaces at the end of a line, like this:  
-this is a new line.
-
-
-To start a new paragraph, leave an empty line between two lines of text.
-
-This is a new paragraph.
+## SUMMARY
+I started by trying to nest 3 differentr shapes all under the same for loop. It was here that I ran into my initial issue, where only 1 dot showed up in my live screen. I then separated the bunch into 3 for loops for each shape, but I encountered an issue with the randomness of the shapes, as they were bouncing around the screen.
