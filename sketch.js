@@ -20,8 +20,8 @@ function draw() {
   background(255, 255, 255);
   randomSeed(0);
 
-    for (let x1 = cDiam1x; x1 <= width - x1; x1 += Spacing) {
-      for (let y1 = cDiam1y; y1 <= height - y1; y1 += Spacing) {
+    for (let x1 = cDiam1x; x1 <= width; x1 += Spacing) {
+      for (let y1 = cDiam1y; y1 <= height; y1 += Spacing) {
         xVar = random(-2,2);
         yVar = random(-2,2);
         fill(234, 12, 12);
@@ -29,8 +29,8 @@ function draw() {
       }
     }
 
-    for (let x2 = cDiam2x; x2 <= width - x2; x2 += Spacing2) {
-      for (let y2 = cDiam2y; y2 <= height - y2; y2 += Spacing) {
+    for (let x2 = cDiam2x; x2 <= width; x2 += Spacing2) {
+      for (let y2 = cDiam2y; y2 <= height; y2 += Spacing) {
         xVar = random(-3,3);
         yVar = random(-3,3);
         fill(234, 12, 12);
@@ -38,8 +38,8 @@ function draw() {
       }
     }
        
-     for (let x3 = cDiam3x; x3 <= width - x3; x3 += Spacing) {
-      for (let y3 = cDiam3y; y3 <= height - y3; y3 += Spacing3) {
+     for (let x3 = cDiam3x; x3 <= width; x3 += Spacing) {
+      for (let y3 = cDiam3y; y3 <= height; y3 += Spacing3) {
             xVar = random(-2,2);
             yVar = random(-2,2);
             fill(234, 12, 12);
